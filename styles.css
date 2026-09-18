@@ -35,6 +35,23 @@ body {
   overflow-x: hidden;
 }
 
+.status-banner {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  width: 100%;
+  padding: 12px 16px;
+  text-align: center;
+  font-weight: 800;
+  font-size: clamp(0.85rem, 2.2vw, 1rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff7ed;
+  background: linear-gradient(90deg, #7f1d1d, #b91c1c 40%, #9a3412 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 24px rgba(127, 29, 29, 0.35);
+}
+
 .bg {
   position: fixed;
   inset: 0;
